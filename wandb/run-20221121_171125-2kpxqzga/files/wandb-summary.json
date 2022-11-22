@@ -1,0 +1,1 @@
+{"train/heatmap_loss": 0.0011265830358024686, "train/acc_pose": 0.592323220080573, "train/loss": 0.0011265830358024686, "learning_rate": 0.0005, "momentum": 0.9, "_timestamp": 1669081962.1351583, "_runtime": 2476.9064412117004, "_step": 9300, "_wandb": {"runtime": 6503}}

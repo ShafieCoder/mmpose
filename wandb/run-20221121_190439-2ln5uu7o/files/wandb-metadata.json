@@ -1,0 +1,24 @@
+{
+    "os": "Linux-5.4.0-113-generic-x86_64-with-glibc2.17",
+    "python": "3.8.13",
+    "heartbeatAt": "2022-11-22T03:04:40.047223",
+    "startedAt": "2022-11-22T03:04:39.627925",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 2080 Ti",
+    "gpu_count": 1,
+    "cpu_count": 8,
+    "cuda": "11.0.228",
+    "args": [],
+    "state": "running",
+    "program": "/local/fshafi/mmpose/mmpose/Training_w_new_loss/Trian_pose_estimation.py",
+    "codePath": "mmpose/Training_w_new_loss/Trian_pose_estimation.py",
+    "git": {
+        "remote": "https://github.com/open-mmlab/mmpose.git",
+        "commit": "7fcf2e85e157d36261629c2ebc6ad0ce8de5946a"
+    },
+    "email": "fshafi25@gmail.com",
+    "root": "/local/fshafi/mmpose",
+    "host": "grouse",
+    "username": "fshafi",
+    "executable": "/local/fshafi/Miniconda3/envs/openmmlab/bin/python"
+}
