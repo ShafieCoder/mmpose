@@ -104,7 +104,7 @@ cfg.channel_cfg = dict(
     ]) 
 
 # model settings
-""" cfg.model = dict(
+cfg.model = dict(
     type='TopDown',
     pretrained='mmcls://resnest50',
     backbone=dict(type='ResNeSt', depth=50),
@@ -118,8 +118,8 @@ cfg.channel_cfg = dict(
         flip_test=True,
         post_process='default',
         shift_heatmap=True,
-        modulate_kernel=11)) """ 
-cfg.loss_keypoint=dict(type='AdaptiveWingLoss', use_target_weight=False)
+        modulate_kernel=11)) 
+#cfg.loss_keypoint=dict(type='AdaptiveWingLoss', use_target_weight=False)
 #####################################################################################################
 import warnings
 
