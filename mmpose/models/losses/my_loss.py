@@ -18,7 +18,7 @@ class MyLoss(nn.Module):
     """ Likelihood loss for heatmaps.
     
     Args:
-        use_target_weight (bool): Option to use weighted MSE loss.
+        use_target_weight (bool): Option to use weighted Likelihood loss.
             Different joint types may have different target weights.
         loss_weight (float): Weight of the loss. Default: 1.0.
     """
@@ -28,7 +28,7 @@ class MyLoss(nn.Module):
         #self.use_target_weight = use_target_weight
 
     def my_loss(self,pred, target):
-        assert pred.size() == target.size() and target.numel()>0
+        assert pred.size() == target.size() and target.numel()>0  
     
         norm_pred = f.normalize(pred, p = 1, dim =1,eps=1e-12)
         print(norm_pred)
